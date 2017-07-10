@@ -1,0 +1,47 @@
+<class name="Template" index="">
+	<backColour>#FFFFFFFF</backColour>
+	<borderColour>#FFFFFFFF</borderColour>
+	<borderWidth>0</borderWidth>
+	<cellData>240,300,0,0;318,222,0,0</cellData>
+	<cellsHigh>2</cellsHigh>
+	<cellsWide>2</cellsWide>
+	<marginWidth>0</marginWidth>
+	<name>photo</name>
+	<class name="Element" index="elements0">
+		<elementType>Image</elementType>
+		<heightLand>599</heightLand>
+		<heightPort>599</heightPort>
+		<name>Image1</name>
+		<visible>true</visible>
+		<widthLand>479</widthLand>
+		<widthPort>442</widthPort>
+		<xLand>0</xLand>
+		<xPort>22</xPort>
+		<yLand>0</yLand>
+		<yPort>0</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<updateFreq>3600</updateFreq>
+			<uri>http://nextday-pic.b0.upaiyun.com/20170703/big-568h@3x.jpg!jpg85</uri>
+		</class>
+	</class>
+	<class name="Element" index="elements1">
+		<elementType>Image</elementType>
+		<heightLand>599</heightLand>
+		<heightPort>42</heightPort>
+		<name>Image2</name>
+		<visible>true</visible>
+		<widthLand>479</widthLand>
+		<widthPort>144</widthPort>
+		<xLand>0</xLand>
+		<xPort>172</xPort>
+		<yLand>0</yLand>
+		<yPort>0</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<uri>content://media/external/images/media/1475278</uri>
+		</class>
+	</class>
+</class>

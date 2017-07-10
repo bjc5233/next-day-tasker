@@ -1,0 +1,70 @@
+<class name="Template" index="">
+	<backColour>#00000000</backColour>
+	<borderColour>#FFFFFFFF</borderColour>
+	<borderWidth>0</borderWidth>
+	<cellData>240,300,0,0;318,222,0,0</cellData>
+	<cellsHigh>1</cellsHigh>
+	<cellsWide>4</cellsWide>
+	<marginWidth>0</marginWidth>
+	<name>nextday</name>
+	<class name="Element" index="elements0">
+		<elementType>Text</elementType>
+		<heightLand>299</heightLand>
+		<heightPort>69</heightPort>
+		<name>comment1</name>
+		<visible>true</visible>
+		<widthLand>959</widthLand>
+		<widthPort>893</widthPort>
+		<xLand>0</xLand>
+		<xPort>58</xPort>
+		<yLand>0</yLand>
+		<yPort>101</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text>comment1</text>
+			<textColour>#FFF4FFFF</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>16</textSize>
+		</class>
+	</class>
+	<class name="Element" index="elements1">
+		<elementType>Image</elementType>
+		<heightLand>97</heightLand>
+		<heightPort>108</heightPort>
+		<name>milk</name>
+		<visible>true</visible>
+		<widthLand>174</widthLand>
+		<widthPort>98</widthPort>
+		<xLand>849</xLand>
+		<xPort>8</xPort>
+		<yLand>124</yLand>
+		<yPort>119</yPort>
+		<class name="ImageElement" index="state0">
+			<alpha>255</alpha>
+			<stateName></stateName>
+			<uri>content://media/external/images/media/1475271</uri>
+		</class>
+	</class>
+	<class name="Element" index="elements2">
+		<elementType>Text</elementType>
+		<heightLand>111</heightLand>
+		<heightPort>82</heightPort>
+		<name>comment2</name>
+		<visible>true</visible>
+		<widthLand>636</widthLand>
+		<widthPort>795</widthPort>
+		<xLand>636</xLand>
+		<xPort>123</xPort>
+		<yLand>111</yLand>
+		<yPort>170</yPort>
+		<class name="TextElement" index="state0">
+			<centre>false</centre>
+			<stateName></stateName>
+			<text>comment2</text>
+			<textColour>#FFF4FFFF</textColour>
+			<textScaleWidth>1.0</textScaleWidth>
+			<textSize>14</textSize>
+		</class>
+	</class>
+</class>

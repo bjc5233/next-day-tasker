@@ -1,0 +1,112 @@
+<TaskerData sr="" dvi="1" tv="4.9u3m">
+    <Profile sr="prof6" ve="2">
+        <cdate>1499487286150</cdate>
+        <edate>1499653838146</edate>
+        <id>6</id>
+        <mid0>3</mid0>
+        <nme>nextday</nme>
+        <Time sr="con0">
+            <cname>nextday</cname>
+            <fh>8</fh>
+            <fm>30</fm>
+            <th>8</th>
+            <tm>30</tm>
+        </Time>
+    </Profile>
+    <Task sr="task3">
+        <cdate>1499486239188</cdate>
+        <edate>1499653810850</edate>
+        <id>3</id>
+        <nme>nextday</nme>
+        <pri>100</pri>
+        <Action sr="act0" ve="7">
+            <code>590</code>
+            <Str sr="arg0" ve="3">%DATE</Str>
+            <Str sr="arg1" ve="3">-</Str>
+            <Int sr="arg2" val="0"/>
+        </Action>
+        <Action sr="act1" ve="7">
+            <code>547</code>
+            <Str sr="arg0" ve="3">%today</Str>
+            <Str sr="arg1" ve="3">%DATE1%DATE2%DATE3</Str>
+            <Int sr="arg2" val="0"/>
+            <Int sr="arg3" val="0"/>
+            <Int sr="arg4" val="0"/>
+        </Action>
+        <Action sr="act10" ve="7">
+            <code>761</code>
+            <Str sr="arg0" ve="3">photo.w / Image1</Str>
+            <Str sr="arg1" ve="3">http://nextday-pic.b0.upaiyun.com%imgurl</Str>
+        </Action>
+        <Action sr="act2" ve="7">
+            <code>118</code>
+            <Str sr="arg0" ve="3">nichijou.in:80</Str>
+            <Str sr="arg1" ve="3">/LastDay/%DATE1/%DATE2/%DATE3.json</Str>
+            <Str sr="arg2" ve="3"/>
+            <Str sr="arg3" ve="3"/>
+            <Str sr="arg4" ve="3"/>
+            <Int sr="arg5" val="5"/>
+            <Str sr="arg6" ve="3"/>
+            <Str sr="arg7" ve="3"/>
+            <Int sr="arg8" val="0"/>
+        </Action>
+        <Action sr="act3" ve="7">
+            <code>547</code>
+            <Str sr="arg0" ve="3">%res</Str>
+            <Str sr="arg1" ve="3">%HTTPD</Str>
+            <Int sr="arg2" val="0"/>
+            <Int sr="arg3" val="0"/>
+            <Int sr="arg4" val="0"/>
+        </Action>
+        <Action sr="act4" ve="7">
+            <code>129</code>
+            <Str sr="arg0" ve="3">var data = JSON.parse(res);
+var imgurl = data[today].images.big568h3x.replace("{img}", "");
+var comment1 = data[today].text.comment1;
+var comment2 = data[today].text.comment2;</Str>
+            <Str sr="arg1" ve="3"/>
+            <Int sr="arg2" val="1"/>
+            <Int sr="arg3" val="45"/>
+        </Action>
+        <Action sr="act5" ve="7">
+            <code>547</code>
+            <Str sr="arg0" ve="3">%imgpath</Str>
+            <Str sr="arg1" ve="3">/storage/sdcard1/nextday/%DATE.jpg</Str>
+            <Int sr="arg2" val="0"/>
+            <Int sr="arg3" val="0"/>
+            <Int sr="arg4" val="0"/>
+        </Action>
+        <Action sr="act6" ve="7">
+            <code>118</code>
+            <Str sr="arg0" ve="3">nextday-pic.b0.upaiyun.com</Str>
+            <Str sr="arg1" ve="3">%imgurl</Str>
+            <Str sr="arg2" ve="3"/>
+            <Str sr="arg3" ve="3"/>
+            <Str sr="arg4" ve="3"/>
+            <Int sr="arg5" val="12"/>
+            <Str sr="arg6" ve="3">image/*</Str>
+            <Str sr="arg7" ve="3">%imgpath</Str>
+            <Int sr="arg8" val="0"/>
+        </Action>
+        <Action sr="act7" ve="7">
+            <code>109</code>
+            <Int sr="arg0" val="0"/>
+            <Str sr="arg1" ve="3">%imgpath</Str>
+            <Int sr="arg2" val="0"/>
+            <Int sr="arg3" val="0"/>
+        </Action>
+        <Action sr="act8" ve="7">
+            <code>740</code>
+            <Str sr="arg0" ve="3">nextday.w / comment1</Str>
+            <Str sr="arg1" ve="3">%comment1</Str>
+        </Action>
+        <Action sr="act9" ve="7">
+            <code>740</code>
+            <Str sr="arg0" ve="3">nextday.w / comment2</Str>
+            <Str sr="arg1" ve="3">%comment2</Str>
+        </Action>
+        <Img sr="icn" ve="2">
+            <fle>/storage/sdcard0/Tasker/.icn/nextday/nextday_icon132.png</fle>
+        </Img>
+    </Task>
+</TaskerData>
