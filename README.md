@@ -10,4 +10,5 @@
 * 触发器每日8:30自动执行
 
 ## 预览
+更加具体的流程描述可以查看这个[地址](http://www.nexttoyou.me/index.php/archives/307)
 <div align=center><img src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/demo.png"/></div>
