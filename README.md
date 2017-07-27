@@ -11,7 +11,7 @@
 
 ## 预览
 更加具体的流程描述可以查看这个[地址](http://www.nexttoyou.me/index.php/archives/307)
-<div align=center><img height="540" width="960" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/demo.png"/></div>
-<div align=center><img height="540" width="960" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/Screenshot_2017-07-24-10-07-52-991.png"/></div>
-<div align=center><img height="540" width="960" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/Screenshot_2017-07-26-09-17-45-852.png"/></div>
-<div align=center><img height="540" width="960" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/Screenshot_2017-07-27-09-53-12-736.png"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/demo.png"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/Screenshot_2017-07-24-10-07-52-991.png"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/Screenshot_2017-07-26-09-17-45-852.png"/></div>
+<div align=center><img height="960" width="540" src="https://github.com/bjc5233/next-day-tasker/raw/master/resources/Screenshot_2017-07-27-09-53-12-736.png"/></div>
