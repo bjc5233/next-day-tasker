@@ -8,6 +8,7 @@
 * 导入tasker项目
 * 导入zoom项目，并在桌面添加小工具
 * 触发器每日8:30自动执行
+* 为了tasker能接受来自zoom小工具的请求，需要配置tasker->preferences->MISC->Allow External Access
 
 ## 预览
 更加具体的流程描述可以查看这个[地址](http://www.nexttoyou.me/index.php/archives/307)
